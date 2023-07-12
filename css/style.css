@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #1A1A1D;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 30px;
+  background: #767676;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+nav {
+  font-family: sans-serif;
+}
+nav a:active {
+  color: #00E3FF;
+}
+nav a:hover {
+  color: #FFFFFF;
+}
+nav a:visited {
+  color: #FF00A6;
+}
+p {
+  color: #F4F4F4;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.name {
+  color: #00E3FF;
+}
+ul {
+  color: #F4F4F4;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+footer a {
+  color: #00E3FF;
+}
+footer a:visited {
+  color: #FF00A6;
+}
+footer a:hover {
+  color: #FFFFFF;
+}
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #517487;
+}
+td, th {
+  border: 1px solid #dddddd;
+  border-spacing: 20px;
+  text-align: left;
+  padding: 8px;
+}
+thead {
+  color: #00E3FF;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+form {
+  background-color: #565656;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=body], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]:hover {
+  background-color: #FF00A6;
+}
+input[type=reset]:hover {
+  background-color: #FF00A6;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+legend {
+  background-color: #1A1A1D;
+  color: #00E3FF;
+  padding: 5px 10px;
+}
+caption {
+  font-size: 25px;
+  color: #FF00A6;
+}
+figcaption {
+  padding: 0.5em;
+  border: thin silver solid;
+  border-bottom: none;
+}
