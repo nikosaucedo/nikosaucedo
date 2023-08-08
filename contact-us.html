@@ -6,30 +6,33 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/layout.css">
 <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
 <main class="main">
   <header>
     <h1 class="name">Contact Us</h1>
-    <nav class="topnav"> <a href="index.html">Home</a> <a href="blog.html">Blog</a> <a class="active" href="contact-us.html">Contact Us</a> </nav>
+    <nav class="topnav"> <a href="index.html"><i class="material-icons w3-margin-left">home</i></a> <a href="blog.html">Blog</a> <a class="active" href="contact-us.html">Contact Us</a> <a href="https://2learnwp.brookhavencollege.edu/LennyKravitz/">WordPress Website</a> </nav>
   </header>
   <br>
   <br>
   <form action="mailto:nhsaucedo@gmail.com" method="get" enctype="text/plain">
-    <fieldset>
+    <fieldset class="w3-theme">
       <legend>Your Information</legend>
       Name:<br>
-      <input type="text" name="subject">
+      <input class="w3-input w3-animate-input" type="text" name="subject">
       <br>
       Email:<br>
-      <input type="email" name="email">
+      <input class="w3-input w3-animate-input" type="email" name="email">
       <br>
       Message:<br>
-      <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea>
+      <textarea class="w3-input w3-animate-input" name="body" rows="5" cols="30" placeholder="Your Message"></textarea>
       <br>
       <label for="country">Country:</label>
-      <select id="country" name="country">
+      <select class="w3-select w3-border" id="country" name="country">
         <option value="usa">USA</option>
         <option value="canada">Canada</option>
         <option value="mexico">Mexico</option>
@@ -38,26 +41,26 @@
       <br>
       <br>
       <p class="name"> Age: </p>
-      <input type="radio" id="age1" name="age" value="20-30">
+      <input class="w3-radio" type="radio" id="age1" name="age" value="20-30">
       <label for="age1"> 20-30 </label>
       <br>
-      <input type="radio" id="age2" name="age" value="31-40">
+      <input class="w3-radio" type="radio" id="age2" name="age" value="31-40">
       <label for="age2"> 30-40 </label>
       <br>
-      <input type="radio" id="age3" name="age" value="40-50">
+      <input class="w3-radio" type="radio" id="age3" name="age" value="40-50">
       <label for="age3"> 40+ </label>
       <br>
       <p class="name"> How did you hear about us? : </p>
-      <input type="checkbox" id="f1" name="found" value="30">
+      <input class="w3-check" type="checkbox" id="f1" name="found" value="30">
       <label for="f1"> Web Search (Google, Bing, etc.) </label>
       <br>
-      <input type="checkbox" id="f2" name="found" value="60">
+      <input class="w3-check" type="checkbox" id="f2" name="found" value="60">
       <label for="f2"> Social Media (Instagram, Facebook, etc.) </label>
       <br>
-      <input type="checkbox" id="f3" name="found" value="100">
+      <input class="w3-check" type="checkbox" id="f3" name="found" value="100">
       <label for="f3"> Reccomended by family or friend </label>
       <br>
-      <input type="checkbox" id="f4" name="found" value="100">
+      <input class="w3-check" type="checkbox" id="f4" name="found" value="100">
       <label for="f4"> Other </label>
       <br>
       <br>
@@ -68,9 +71,12 @@
   <br>
   <br>
   <br>
-  <table>
+  <table class="w3-table w3-striped w3-bordered">
     <caption>
-    UCL Winners
+    <button class="w3-button w3-pink w3-round-large">
+    <a href="https://www.uefa.com/uefachampionsleague/history/">UCL  Winners</a>
+    </button>
+    
     </caption>
     <thead>
       <tr>
